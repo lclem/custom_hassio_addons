@@ -1,7 +1,7 @@
 ---
 name: Custom AppDaemon
 # version: dev
-version: 0.17.7-custom-v1.0
+version: 0.17.7-custom-v1.1
 slug: custom_appdaemon
 description: Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 url: https://github.com/hassio-addons/addon-appdaemon
@@ -13,7 +13,7 @@ arch:
 init: false
 homeassistant_api: true
 uart: true
-# host_network: true
+host_network: true
 ports:
   5050/tcp: 5050
   4000/tcp: 4000
