@@ -1,0 +1,6 @@
+{
+  "name": "HA custom Add-ons by LC",
+  "udev": true,
+  "url": "https://github.com/lclem/custom_hassio_addons",
+  "maintainer": "lclem"
+}
