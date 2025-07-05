@@ -15,8 +15,10 @@ uart: true
 host_network: true
 ports:
   5050/tcp: 5050
+  4000/tcp: 4000
 ports_description:
   5050/tcp: AppDaemon
+  4000/tcp: cam stream
 map:
   - addon_config:rw
   - homeassistant_config:rw
